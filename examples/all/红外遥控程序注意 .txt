@@ -1,0 +1,3 @@
+红外遥控程序注意将IRremote 复制到ARDuino安装目录下面libraries 文件夹下面 ,否则编译会出现
+
+C:\Program Files (x86)\Arduino\libraries\RobotIRremote\src\IRremoteTools.cpp:5:16: error: 'TKD2' was not declared in this scope int RECV_PIN = TKD2; // the pin the IR receiver is connected to                ^编译有误。   
